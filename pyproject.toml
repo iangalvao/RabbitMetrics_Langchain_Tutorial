@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-proj1"
+version = "0.1.0"
+description = "Test project using langchain library"
+authors = ["iangalvao <iansgalvao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.324"
+pinecone-client = "^2.2.4"
+jupyter = "^1.0.0"
+openai = "^0.28.1"
+executing = "2.0.1"
+tiktoken = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
